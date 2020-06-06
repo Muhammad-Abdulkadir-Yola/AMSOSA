@@ -1,0 +1,36 @@
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\Alumni Management System.exe.config
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni Management System.exe
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni Management System.xml
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni Management System.pdb
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni Management System.vbprojResolveAssemblyReference.cache
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.AboutForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.ActivityForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.ActivityRecord.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.ActvityListView.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.Alumni_Management_System.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.Form1.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.InfoForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.membersHistoryViewForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.staffListView.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.StaffRecordViewForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.LoginForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.ManageActivitiesForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.ManageMembersForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.ManageStaffForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.ManageUserForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.Resources.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.RegisterStaffForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.RegMemberForm.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni_Management_System.SplashScreen1.resources
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni Management System.vbproj.GenerateResource.Cache
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\RdlCompile.cache
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\RdlCompile.compiled
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\AlumniDatabase.mdf
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\AlumniDatabase_log.ldf
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\Alumni Management System.exe.manifest
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\Alumni Management System.application
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\Alumni Management System.exe
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\Alumni Management System.pdb
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\bin\Debug\Alumni Management System.xml
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni Management System.exe.manifest
+C:\Users\abdul\Documents\Visual Studio 2013\Projects\AMSOSA - YAMS\Alumni Management System\obj\Debug\Alumni Management System.application

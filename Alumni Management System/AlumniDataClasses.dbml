@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AlumniDatabase" Class="AlumniDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\AlumniDatabase.mdf;Integrated Security=True" SettingsObjectName="Alumni_Management_System.My.MySettings" SettingsPropertyName="AlumniDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Class" Member="Classes">
+    <Type Name="Class">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Section" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LGA" Member="LGAs">
+    <Type Name="LGA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MSS" Member="MSSes">
+    <Type Name="MSS">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Nationality" Member="Nationalities">
+    <Type Name="Nationality">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Prefect" Member="Prefects">
+    <Type Name="Prefect">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rank" Member="Ranks">
+    <Type Name="Rank">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Section" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Region" Member="Regions">
+    <Type Name="Region">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Section" Member="Sections">
+    <Type Name="Section">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.State" Member="States">
+    <Type Name="State">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Fullname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Rank" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Staff" Member="Staffs">
+    <Type Name="Staff">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StaffNo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Fullname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Section" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="YearAdmitted" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="YearExited" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="LoginPassword" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SubjectTaught" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrentWorkplace" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkAddress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rank" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="BirthDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LGA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Activities" Member="Activities">
+    <Type Name="Activity">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Venue" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CostDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ActivityNum" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Member" Member="Members">
+    <Type Name="Member">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RegNo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Fullname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="YearAdmitted" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ClassAdmitted" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="YearExited" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ClassExited" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="PresentSch" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LoginPassword" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="WorkPlace" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rank" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Prefect" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MSS" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkAddress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LGA" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SchRegNo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="BirthDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SectionAdmitted" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SectionExited" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Chapter" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

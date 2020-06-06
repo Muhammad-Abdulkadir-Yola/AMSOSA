@@ -1,0 +1,248 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AlumniManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:Alumni_Management_System.AlumniDataSet.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.ActivitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.MemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.ActivitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.MemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.ActivitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet.MemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSetTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSetTableAdapters.StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSetTableAdapters.ActivitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSetTableAdapters.MemberTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Alumni_Management_System.AlumniDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Alumni_Management_System.AlumniDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Alumni_Management_System.AlumniDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager.UpdateAll(Alumni_Management_System.AlumniDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Alumni_Management_System.AlumniDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.About">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Activities">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Activity">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Activity1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.AMS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Close">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.lockscreen_wallpaper">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Maximize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Maximize1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Member">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Members">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Minimize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Padlock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.PicMember">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Restore">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Restore1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Screenshot_2019_09_10_21_08_27">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.SplashBack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Staff">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Staffs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Switch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.User">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.User2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.YAMS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.YAMS_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.YAMS_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.YAMS_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Alumni_Management_System.My.Resources.Resources.Yolasoft_official_Title">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Alumni_Management_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
